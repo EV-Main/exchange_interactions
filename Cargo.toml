@@ -77,4 +77,4 @@ exchange_interactions_methods = { version = "0.3.0", path = "exchange_interactio
 
 [patch.crates-io]
 trading_data_core = { path = "../trading_data/trading_data_core" }
-v_utils = { path = "../../v_utils/v_utils" }
+v_utils = { path = "../../../v_utils/v_utils" }
