@@ -19,6 +19,9 @@ tabs_in_doc_comments = "allow"
 get_first = "allow" # const fn, so actually more performant
 get_last_with_len = "allow"
 
+[workspace.lints.cargo]
+non_kebab_case_bins = "allow"
+
 # avoid setting patch versions, - remember that we are a lib. If behavior didn't change, we should not bump the dep version.
 [workspace.dependencies]
 ahash = { version = "^0.8", features = ["serde"] }
