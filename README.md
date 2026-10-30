@@ -4,8 +4,8 @@
 [<img alt="docs.rs" src="https://img.shields.io/badge/docs.rs-66c2a5?style=for-the-badge&labelColor=555555&logo=docs.rs&style=flat-square" height="20">](https://docs.rs/exchange_interactions)
 ![Lines Of Code](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/valeratrades/b48e6f02c61942200e7d1e3eeabf9bcb/raw/exchange_interactions-loc.json)
 <br>
-[<img alt="ci errors" src="https://img.shields.io/github/actions/workflow/status/EV-Main/exchange_interactions/errors.yml?branch=main&style=for-the-badge&style=flat-square&label=errors&labelColor=420d09" height="20">](https://github.com/EV-Main/exchange_interactions/actions?query=branch%3Amain) <!--NB: Won't find it if repo is private-->
-[<img alt="ci warnings" src="https://img.shields.io/github/actions/workflow/status/EV-Main/exchange_interactions/warnings.yml?branch=main&style=for-the-badge&style=flat-square&label=warnings&labelColor=d16002" height="20">](https://github.com/EV-Main/exchange_interactions/actions?query=branch%3Amain) <!--NB: Won't find it if repo is private-->
+[<img alt="ci errors" src="https://img.shields.io/github/actions/workflow/status/EV-Quant/exchange_interactions/errors.yml?branch=main&style=for-the-badge&style=flat-square&label=errors&labelColor=420d09" height="20">](https://github.com/EV-Quant/exchange_interactions/actions?query=branch%3Amain) <!--NB: Won't find it if repo is private-->
+[<img alt="ci warnings" src="https://img.shields.io/github/actions/workflow/status/EV-Quant/exchange_interactions/warnings.yml?branch=main&style=for-the-badge&style=flat-square&label=warnings&labelColor=d16002" height="20">](https://github.com/EV-Quant/exchange_interactions/actions?query=branch%3Amain) <!--NB: Won't find it if repo is private-->
 
 A unified library for all crypto exchange interactions, instead of manually wrapping all methods and keeping track of quirks of different exchanges.
 Before having this, I was never able to get production-ready any project relying on more than one exchange.
@@ -69,7 +69,7 @@ if you try the following with different `Exchange`s and `Instruments` encoded in
 - [\.] polish http interactions in using this API in other projects
 - [ ] method to execute _all_ known requests in test mode[^1], on `success`full responses, persist the returned json objects to use in test later.
 - [x] use in [btc_line](https://github.com/valeratrades/btc_line) to get Websocket interactions nice and good
-- [ ] make fitted for the final stage of full integration into [discretionary_engine](<https://github.com/EV-invest/discretionary_engine>) (requires trade execution/followup methods suite), which would signify production-readiness of this crate.
+- [ ] make fitted for the final stage of full integration into [discretionary_engine](<https://github.com/EV-Quant/discretionary_engine>) (requires trade execution/followup methods suite), which would signify production-readiness of this crate.
     upd: really should be just compatible with nautilus-trader; used only for data collection, - _not trading_ 
 
 

@@ -8,11 +8,11 @@ authors = ["negi-grass", "valeratrades"]
 categories = ["api-bindings", "asynchronous"]
 description = "Implementations of HTTP/HTTPS/WebSocket API methods for some crypto exchanges, using [crypto-botters](<https://github.com/negi-grass/crypto-botters>) framework"
 documentation = "https://docs.rs/exchange_interactions"
-homepage = "https://github.com/EV-invest/exchange_interactions"
+homepage = "https://github.com/EV-Quant/exchange_interactions"
 keywords = ["client", "websocket", "asynchronous"]
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/EV-invest/exchange_interactions/tree/main/exchange_interactions"
+repository = "https://github.com/EV-Quant/exchange_interactions/tree/main/exchange_interactions"
 
 [package.metadata.docs.rs]
 cargo-args = ["-Zunstable-options", "-Zrustdoc-scrape-examples"]

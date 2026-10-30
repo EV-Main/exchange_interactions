@@ -7,10 +7,10 @@ edition = "2024"
 authors = ["negi-grass", "valeratrades"]
 categories = ["api-bindings", "asynchronous"]
 description = "Exchange method implementations backing the exchange_interactions crate"
-homepage = "https://github.com/EV-invest/exchange_interactions"
+homepage = "https://github.com/EV-Quant/exchange_interactions"
 keywords = ["client", "websocket", "asynchronous"]
 license = "MIT"
-repository = "https://github.com/EV-invest/exchange_interactions/tree/main/exchange_interactions_methods"
+repository = "https://github.com/EV-Quant/exchange_interactions/tree/main/exchange_interactions_methods"
 
 [package.metadata.cargo-machete]
 ignored = ["derive-new", "serde", "tokio", "v_utils"]

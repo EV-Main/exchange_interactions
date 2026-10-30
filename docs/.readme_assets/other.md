@@ -12,7 +12,7 @@
 - [\.] polish http interactions in using this API in other projects
 - [ ] method to execute _all_ known requests in test mode[^1], on `success`full responses, persist the returned json objects to use in test later.
 - [x] use in [btc_line](https://github.com/valeratrades/btc_line) to get Websocket interactions nice and good
-- [ ] make fitted for the final stage of full integration into [discretionary_engine](<https://github.com/EV-invest/discretionary_engine>) (requires trade execution/followup methods suite), which would signify production-readiness of this crate.
+- [ ] make fitted for the final stage of full integration into [discretionary_engine](<https://github.com/EV-Quant/discretionary_engine>) (requires trade execution/followup methods suite), which would signify production-readiness of this crate.
     upd: really should be just compatible with nautilus-trader; used only for data collection, - _not trading_ 
 
 
